@@ -1,0 +1,46 @@
+{
+  "name": "personal_project",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22 <23",
+    "npm": ">=10 <11"
+  },
+  "packageManager": "npm@10.9.9",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@radix-ui/react-select": "^2.1.2",
+    "@reduxjs/toolkit": "^2.2.7",
+    "@tiptap/react": "^2.5.8",
+    "@tiptap/starter-kit": "^2.5.8",
+    "axios": "^1.7.7",
+    "date-fns": "^3.6.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2",
+    "next": "^14.2.31",
+    "react": "^18.3.1",
+    "react-big-calendar": "^1.15.0",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.1",
+    "react-redux": "^9.1.2",
+    "reactflow": "^11.11.4",
+    "recharts": "^2.12.7",
+    "secure-ls": "^2.0.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-big-calendar": "^1.16.2",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "5.2.2"
+  }
+}
